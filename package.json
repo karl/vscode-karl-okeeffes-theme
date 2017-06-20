@@ -1,0 +1,22 @@
+{
+    "name": "karl-okeeffes-theme",
+    "displayName": "Karl O'Keeffe's Theme",
+    "description": "Karl O'Keeffe's Theme",
+    "version": "0.17.0",
+    "publisher": "monket",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Karl O'Keeffe's Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Karl O'Keeffe's Theme-color-theme.json"
+            }
+        ]
+    }
+}
