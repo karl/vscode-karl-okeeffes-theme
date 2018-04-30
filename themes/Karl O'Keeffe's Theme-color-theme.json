@@ -75,10 +75,24 @@
 			}
 		},
 		{
+			"name": "Keyword",
+			"scope": "keyword.control.flow",
+			"settings": {
+				"foreground": "#FFF4BA"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword.control.trycatch",
+			"settings": {
+				"foreground": "#FFF4BA"
+			}
+		},
+		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"foreground": "#FFF4BA"
+				"foreground": "#959fa4"
 			}
 		},
 		{
