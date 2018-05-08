@@ -191,7 +191,8 @@
 		"editor.findMatchBackground": "#346f7d",
 		"editor.findMatchHighlightBackground": "#2a5b67",
 		"editor.findRangeHighlightBackground": "#555555",
-		"editorIndentGuide.background": "#4a5052"
+		"editorIndentGuide.background": "#4a5052",
+		"editorIndentGuide.activeBackground": "#626a6c"
 },
 	"name": "Karl O'Keeffe's Theme"
 }
