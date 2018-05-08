@@ -2,7 +2,7 @@
     "name": "karl-okeeffes-theme",
     "displayName": "Karl O'Keeffe's Theme",
     "description": "Karl O'Keeffe's Theme",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "publisher": "monket",
     "engines": {
         "vscode": "^1.12.0"
