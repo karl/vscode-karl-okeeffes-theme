@@ -6,7 +6,7 @@ A custom theme for Visual Studio Code by Karl O'Keeffe.
 
 Interesting features:
 
-* Punctuation fades into the background.
+* Punctuation and keywords fade into the background.
 * Only text within strings is coloured.
 * Syntax highlighting within template strings.
 * JSX attribute braces highlighted differently to object braces within an attribute.
