@@ -1,5 +1,13 @@
 # Change Log
 
+## 2.1.2
+
+- Tweak icon.
+
+## 2.1.1
+
+- Fix gallery background colour.
+
 ## 2.1.0
 
 - Update screenshot.
