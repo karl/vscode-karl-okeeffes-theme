@@ -1,12 +1,6 @@
 {
 	"tokenColors": [
 		{
-			"settings": {
-				"background": "#3E4345",
-				"foreground": "#D6D6D6"
-			}
-		},
-		{
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -185,6 +179,18 @@
 			],
 			"settings": {
 				"foreground": "#729FCF"
+			}
+		},
+		{
+			"name": "Types",
+			"scope": [
+				"meta.type",
+				"meta.return.type",
+				"keyword.operator.type",
+				"entity.name.type"
+			],
+			"settings": {
+				"foreground": "#959fa4"
 			}
 		}
 	],

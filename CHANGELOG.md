@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.3.0
+
+- Highlight types in the same colour as punctuation and keywords.
+
 ## 2.2.0
 
 - Highlight non-asignment operators (+, -, !, ===, !==) to make them easier to spot.
