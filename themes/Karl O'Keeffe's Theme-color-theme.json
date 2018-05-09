@@ -89,6 +89,20 @@
 			}
 		},
 		{
+			"name": "Keyword",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#fac992"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword.operator.assignment",
+			"settings": {
+				"foreground": "#959fa4"
+			}
+		},
+		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
@@ -99,7 +113,7 @@
 			"name": "Class name",
 			"scope": "entity.name.type.class",
 			"settings": {
-				"foreground": "#8AE234"
+				"foreground": "#69a88b"
 			}
 		},
 		{
@@ -134,7 +148,7 @@
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#73D216"
+				"foreground": "#69a88b"
 			}
 		},
 		{

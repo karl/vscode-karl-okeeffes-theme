@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.2.0
+
+- Highlight non-asignment operators (+, -, !, ===, !==) to make them easier to spot.
+- No longer highlight class name seprately, they now use the same colour as variables.
+
 ## 2.1.2
 
 - Tweak icon.
