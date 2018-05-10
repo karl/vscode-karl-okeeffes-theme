@@ -83,6 +83,17 @@
 			}
 		},
 		{
+			"name": "Debugger and Console",
+			"scope": [
+				"keyword.other.debugger",
+				"support.class.console",
+				"support.function.console"
+			],
+			"settings": {
+				"foreground": "#ffb3ee"
+			}
+		},
+		{
 			"name": "Keyword",
 			"scope": "keyword.operator",
 			"settings": {

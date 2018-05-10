@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.4.0
+
+- Bright colours for debugger and console statements.
+
 ## 2.3.0
 
 - Highlight types in the same colour as punctuation and keywords.
