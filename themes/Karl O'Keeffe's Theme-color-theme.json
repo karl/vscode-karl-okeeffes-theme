@@ -69,15 +69,12 @@
 			}
 		},
 		{
-			"name": "Keyword",
-			"scope": "keyword.control.flow",
-			"settings": {
-				"foreground": "#FFF4BA"
-			}
-		},
-		{
-			"name": "Keyword",
-			"scope": "keyword.control.trycatch",
+			"name": "Keyword control flow",
+			"scope": [
+				"keyword.control.flow",
+				"keyword.control.trycatch",
+				"keyword.control.exception"
+			],
 			"settings": {
 				"foreground": "#FFF4BA"
 			}
@@ -158,7 +155,10 @@
 		},
 		{
 			"name": "Function call",
-			"scope": "meta.function-call",
+			"scope": [
+				"meta.function-call",
+				"entity.name.function.tagged-template"
+			],
 			"settings": {
 				"foreground": "#729FCF"
 			}
@@ -168,10 +168,25 @@
 			"scope": [
 				"punctuation",
 				"meta.brace.round",
-				"meta.brace.square"
+				"meta.brace.square",
+				"meta.brace.curly",
+				"meta.separator",
+				"beginning.punctuation",
+				"meta.tag.block.any",
+				"meta.tag.any",
+				"meta.tag.sgml.doctype"
 			],
 			"settings": {
 				"foreground": "#959fa4"
+			}
+		},
+		{
+			"name": "JSON property name",
+			"scope": [
+				"support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#D6D6D6"
 			}
 		},
 		{
@@ -180,13 +195,51 @@
 				"markup.heading"
 			],
 			"settings": {
-				"foreground": "#8AE234"
+				"foreground": "#69a88b"
+			}
+		},
+		{
+			"name": "Markdown italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown bold",
+			"scope": [
+				"markup.bold"
+			],
+			"settings": {
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Markdown code",
 			"scope": [
-				"markup.inline.raw"
+				"markup.raw",
+				"markup.inline.raw",
+				"markup.fenced_code"
+			],
+			"settings": {
+				"foreground": "#e4bc72"
+			}
+		},
+		{
+			"name": "Markdown formatted code",
+			"scope": [
+				"meta.embedded"
+			],
+			"settings": {
+				"foreground": "#D6D6D6"
+			}
+		},
+		{
+			"name": "Markdown link",
+			"scope": [
+				"markup.underline.link"
 			],
 			"settings": {
 				"foreground": "#729FCF"

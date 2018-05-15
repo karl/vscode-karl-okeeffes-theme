@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.9.0
+
+- Highlight tagged template function calls.
+- Improved formatting for Markdown, JSON and HTML.
+
 ## 2.8.0
 
 - No longer highlight built-in objects, it is difficult to do right, and they
