@@ -1,12 +1,22 @@
 # Change Log
 
-## 2.4.0
+## 2.6.0
+
+- No longer highlight classes orange (this was an accident).
+- No longer try to highlight custom JSX tags slightly differently to normal tags.
+- Highlight `this`.
+
+## 2.5.0
 
 - Bright colours for debugger and console statements.
 
-## 2.3.0
+## 2.4.0
 
 - Highlight types in the same colour as punctuation and keywords.
+
+## 2.3.0
+
+_No release_
 
 ## 2.2.0
 

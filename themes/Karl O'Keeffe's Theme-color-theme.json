@@ -83,6 +83,20 @@
 			}
 		},
 		{
+			"name": "This",
+			"scope": "variable.language.this",
+			"settings": {
+				"foreground": "#b0aada"
+			}
+		},
+		{
+			"name": "Builtins",
+			"scope": "support.class.builtin",
+			"settings": {
+				"foreground": "#fcc335"
+			}
+		},
+		{
 			"name": "Debugger and Console",
 			"scope": [
 				"keyword.other.debugger",
@@ -126,13 +140,6 @@
 			"scope": "entity.name.tag",
 			"settings": {
 				"foreground": "#eeb60f"
-			}
-		},
-		{
-			"name": "JSX Custom Tag",
-			"scope": "support.class",
-			"settings": {
-				"foreground": "#fcc335"
 			}
 		},
 		{
