@@ -172,7 +172,9 @@
 				"meta.brace.curly",
 				"meta.separator",
 				"beginning.punctuation",
+				"meta.tag.inline.any",
 				"meta.tag.block.any",
+				"meta.tag.structure.any",
 				"meta.tag.any",
 				"meta.tag.sgml.doctype"
 			],

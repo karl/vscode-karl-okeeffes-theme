@@ -1,5 +1,13 @@
 # Change Log
 
+## 2.9.2
+
+- Tweak html tag punctuation.
+
+## 2.9.1
+
+- Tweak html tag punctuation.
+
 ## 2.9.0
 
 - Highlight tagged template function calls.
