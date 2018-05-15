@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.8.0
+
+- No longer highlight built-in objects, it is difficult to do right, and they
+  don't seem important enough.
+
 ## 2.7.0
 
 - Fix a bug where we accidentally coloured `new Class` as a type annotation.

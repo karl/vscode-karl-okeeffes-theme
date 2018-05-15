@@ -90,13 +90,6 @@
 			}
 		},
 		{
-			"name": "Builtins",
-			"scope": "support.class.builtin",
-			"settings": {
-				"foreground": "#fcc335"
-			}
-		},
-		{
 			"name": "Debugger and Console",
 			"scope": [
 				"keyword.other.debugger",
