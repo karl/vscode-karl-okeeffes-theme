@@ -204,8 +204,7 @@
 			"scope": [
 				"meta.type",
 				"meta.return.type",
-				"keyword.operator.type",
-				"entity.name.type"
+				"keyword.operator.type"
 			],
 			"settings": {
 				"foreground": "#959fa4"

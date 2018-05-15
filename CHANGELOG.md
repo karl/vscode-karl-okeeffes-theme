@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.7.0
+
+- Fix a bug where we accidentally coloured `new Class` as a type annotation.
+
 ## 2.6.0
 
 - No longer highlight classes orange (this was an accident).
