@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.10.1
+
+- Tweak current line background.
+
 ## 2.10.0
 
 - Tweak workspace colours.
