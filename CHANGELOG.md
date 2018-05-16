@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.10.0
+
+- Tweak workspace colours.
+
 ## 2.9.2
 
 - Tweak html tag punctuation.
