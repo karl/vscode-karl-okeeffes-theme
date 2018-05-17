@@ -245,13 +245,14 @@
     "editor.selectionBackground": "#006a7d8c",
     "editor.selectionHighlightBackground": "#59606365",
     "editor.inactiveSelectionBackground": "#60606063",
-    "editor.wordHighlightBackground": "#484e50",
-    "editor.wordHighlightStrongBackground": "#484e50",
+    "editor.wordHighlightBackground": "#59606356",
+    "editor.wordHighlightStrongBackground": "#59606375",
     "editor.findMatchBackground": "#e55e003d",
     "editor.findMatchHighlightBackground": "#e55e0021",
     "editor.findRangeHighlightBackground": "#60606063",
     "editorIndentGuide.background": "#43484a",
-    "editorIndentGuide.activeBackground": "#4a5052"
+    "editorIndentGuide.activeBackground": "#4a5052",
+    "scrollbar.shadow": "#0000006b"
   },
   "name": "Karl O'Keeffe's Theme"
 }

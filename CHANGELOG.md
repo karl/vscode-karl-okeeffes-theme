@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.11.0
+
+- Tweak word highlight and scrollbar shadow.
+
 ## 2.10.1
 
 - Tweak current line background.
