@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.12.0
+
+- More workspace tweaks.
+
 ## 2.11.0
 
 - Tweak word highlight and scrollbar shadow.
