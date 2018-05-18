@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.13.0
+
+- Highlight function (and other definitions the same way we do variable definitions).
+- Reduce the brightness of keyword operators, they were too distracting.
+
 ## 2.12.0
 
 - More workspace tweaks.

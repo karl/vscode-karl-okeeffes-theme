@@ -41,8 +41,10 @@
       }
     },
     {
-      "name": "Variable definition",
-      "scope": ["meta.definition.variable"],
+      "name": "Definition",
+      "scope": [
+        "meta.definition"
+      ],
       "settings": {
         "foreground": "#69a88b"
       }
@@ -94,7 +96,7 @@
       "name": "Keyword",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#fac992"
+        "foreground": "#c7917b"
       }
     },
     {
