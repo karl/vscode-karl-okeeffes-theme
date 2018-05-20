@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.14.0
+
+- Tweak find background colours.
+
 ## 2.13.0
 
 - Highlight function (and other definitions the same way we do variable definitions).
