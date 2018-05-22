@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.15.0
+
+- Add back in a different colour for custom JSX tags.
+- Reduce contract for line numbers.
+- Tweak colour of dropdowns.
+
 ## 2.14.0
 
 - Tweak find background colours.

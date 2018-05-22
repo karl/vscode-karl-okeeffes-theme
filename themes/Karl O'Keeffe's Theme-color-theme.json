@@ -128,6 +128,13 @@
       }
     },
     {
+      "name": "Custom Tag",
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "#feab7b"
+      }
+    },
+    {
       "name": "Attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
@@ -242,6 +249,7 @@
     "editor.background": "#3E4345",
     "editor.foreground": "#D6D6D6",
     "editorCursor.foreground": "#D3D7CF",
+    "editorLineNumber.foreground": "#4b5153",
     "editorWhitespace.foreground": "#BFBFBF",
     "editor.lineHighlightBackground": "#2326272f",
     "editor.selectionBackground": "#006a7d8c",
@@ -263,6 +271,7 @@
     // "badge.foreground": "#3E4345",
     "activityBarBadge.background": "#fce100",
     "activityBarBadge.foreground": "#3E4345",
+    "dropdown.background": "#363a3d",
     "input.background": "#2f3335",
     "focusBorder": "#cdb700",
     "inputOption.activeBorder": "#69a88b"
