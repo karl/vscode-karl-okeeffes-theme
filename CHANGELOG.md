@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.16.0
+
+- Try highlighting function parameters.
+
 ## 2.15.0
 
 - Add back in a different colour for custom JSX tags.

@@ -50,6 +50,15 @@
       }
     },
     {
+      "name": "Parameter",
+      "scope": [
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#d5c2b1"
+      }
+    },
+    {
       "name": "Template expression",
       "scope": ["meta.template.expression"],
       "settings": {
