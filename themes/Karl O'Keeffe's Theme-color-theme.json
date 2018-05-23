@@ -191,8 +191,37 @@
       }
     },
     {
-      "name": "JSON property name",
-      "scope": ["support.type.property-name"],
+      "name": "Import variable",
+      "scope": [
+        "meta.import variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#b1bdc2"
+      }
+    },
+    {
+      "name": "Import alias",
+      "scope": [
+        "meta.import variable.other.readwrite.alias"
+      ],
+      "settings": {
+        "foreground": "#D6D6D6"
+      }
+    },
+    {
+      "name": "Object keys (JS)",
+      "scope": [
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#b8cbc2"
+      }
+    },
+    {
+      "name": "Object keys (JSON)",
+      "scope": [
+        "support.type.property-name"
+      ],
       "settings": {
         "foreground": "#D6D6D6"
       }

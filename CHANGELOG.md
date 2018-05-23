@@ -2,6 +2,11 @@
 
 ## 2.16.0
 
+- Slightly grey out imports that are aliased (so they alias stands out).
+- Highlight object literal keys to differentiate them from varaibles.
+
+## 2.16.0
+
 - Try highlighting function parameters.
 
 ## 2.15.0
