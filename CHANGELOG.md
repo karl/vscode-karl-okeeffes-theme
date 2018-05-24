@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.17.0
+
+- Add loops related keywords to control flow highlighting (`break` is important).
+- Also reduce brightness of control flow highlighting.
+
 ## 2.16.0
 
 - Slightly grey out imports that are aliased (so they alias stands out).
