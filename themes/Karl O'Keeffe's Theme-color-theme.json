@@ -76,11 +76,12 @@
       "name": "Keyword control flow",
       "scope": [
         "keyword.control.flow",
+        "keyword.control.loop",
         "keyword.control.trycatch",
         "keyword.control.exception"
       ],
       "settings": {
-        "foreground": "#FFF4BA"
+        "foreground": "#e6dcaa"
       }
     },
     {
