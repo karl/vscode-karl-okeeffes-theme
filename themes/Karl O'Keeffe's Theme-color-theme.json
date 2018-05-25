@@ -281,8 +281,17 @@
       "settings": {
         "foreground": "#959fa4"
       }
-    }
-  ],
+    },
+    {
+      "name": "CSS variables",
+      "scope": [
+        "variable.css",
+        "variable.argument.css"
+      ],
+      "settings": {
+        "foreground": "#69a88b"
+      }
+    }  ],
   "colors": {
     "statusBar.background": "#363a3c",
     "statusBar.foreground": "#D6D6D6",

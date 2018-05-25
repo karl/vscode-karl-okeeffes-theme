@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.20.0
+
+- Highlight CSS variables.
+
 ## 2.19.0
 
 - Reduce brightness of constants.
