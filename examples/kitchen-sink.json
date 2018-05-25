@@ -1,0 +1,16 @@
+{
+  "nothing": null,
+  "yes": true,
+  "no": false,
+  "string": "I love monkeys",
+  "number": 123.12,
+  "object": {
+    "a": "a",
+    "b": "b"
+  },
+  "array": [
+    123,
+    456,
+    789
+  ]
+}
