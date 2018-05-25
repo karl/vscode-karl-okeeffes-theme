@@ -1,5 +1,12 @@
 # Change Log
 
+## 2.19.0
+
+- Reduce brightness of constants.
+- Tweak number colours to differentiate them from constants.
+- Treat `*` in `import *` as minor syntax.
+- Highlight property names in CSS.
+
 ## 2.18.0
 
 - Add loops related keywords to control flow highlighting (`break` is important).

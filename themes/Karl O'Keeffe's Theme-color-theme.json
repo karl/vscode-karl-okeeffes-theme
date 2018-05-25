@@ -19,7 +19,7 @@
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#CE5C00"
+        "foreground": "#d15537"
       }
     },
     {
@@ -37,7 +37,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#F57900"
+        "foreground": "#d87627"
       }
     },
     {
@@ -185,7 +185,8 @@
         "meta.tag.block.any",
         "meta.tag.structure.any",
         "meta.tag.any",
-        "meta.tag.sgml.doctype"
+        "meta.tag.sgml.doctype",
+        "constant.language.import-export-all"
       ],
       "settings": {
         "foreground": "#959fa4"
@@ -210,9 +211,10 @@
       }
     },
     {
-      "name": "Object keys (JS)",
+      "name": "Object keys (JS/CSS)",
       "scope": [
-        "meta.object-literal.key"
+        "meta.object-literal.key",
+        "support.type.property-name"
       ],
       "settings": {
         "foreground": "#b8cbc2"
@@ -221,7 +223,7 @@
     {
       "name": "Object keys (JSON)",
       "scope": [
-        "support.type.property-name"
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#D6D6D6"
