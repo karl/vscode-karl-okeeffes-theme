@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.21.0
+
+- Toned down colour for active line number highlight.
+
 ## 2.20.0
 
 - Highlight CSS variables.
