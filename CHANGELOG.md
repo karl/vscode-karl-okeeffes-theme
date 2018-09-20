@@ -1,6 +1,6 @@
 # Change Log
 
-## 2.22.0
+## 2.22.0 / 2.23.0
 
 - Add colours for terminal.
 
