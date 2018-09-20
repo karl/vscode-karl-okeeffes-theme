@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.22.0
+
+- Add colours for terminal.
+
 ## 2.21.0
 
 - Toned down colour for active line number highlight.
