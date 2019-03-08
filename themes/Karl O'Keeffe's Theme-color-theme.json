@@ -121,7 +121,7 @@
     },
     {
       "name": "Class name",
-      "scope": "entity.name.type.class",
+      "scope": ["entity.name.type.class", "entity.name.type.module"],
       "settings": {
         "foreground": "#69a88b"
       }

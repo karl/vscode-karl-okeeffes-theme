@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.24.1
+
+- Tweak colours for modules.
+
 ## 2.24.0
 
 - Add more colours for types.
