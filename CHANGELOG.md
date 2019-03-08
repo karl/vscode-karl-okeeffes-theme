@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.25.1
+
+- Make class definitions stand out more.
+
 ## 2.25.0
 
 - Change the colour of classes and custom types to avoid clashing with `this`.

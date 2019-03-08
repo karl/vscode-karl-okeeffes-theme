@@ -127,6 +127,13 @@
       }
     },
     {
+      "name": "Class",
+      "scope": ["entity.name.type.class"],
+      "settings": {
+        "foreground": "#69a88b"
+      }
+    },
+    {
       "name": "Builtin type",
       "scope": "support.type.builtin",
       "settings": {
