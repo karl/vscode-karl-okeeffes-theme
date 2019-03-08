@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.24.0
+
+- Add more colours for types.
+- Override status bar colours for debugging and no-folder.
+- Better colours when diffing.
+
 ## 2.22.0 / 2.23.0
 
 - Add colours for terminal.
