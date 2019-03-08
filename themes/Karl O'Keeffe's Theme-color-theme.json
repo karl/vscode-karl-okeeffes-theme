@@ -42,18 +42,14 @@
     },
     {
       "name": "Definition",
-      "scope": [
-        "meta.definition"
-      ],
+      "scope": ["meta.definition"],
       "settings": {
         "foreground": "#69a88b"
       }
     },
     {
       "name": "Parameter",
-      "scope": [
-        "variable.parameter"
-      ],
+      "scope": ["variable.parameter"],
       "settings": {
         "foreground": "#d5c2b1"
       }
@@ -131,6 +127,34 @@
       }
     },
     {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "#69a88b"
+      }
+    },
+    {
+      "name": "Type",
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#919ab6"
+      }
+    },
+    {
+      "name": "Builtin type",
+      "scope": "support.type.builtin",
+      "settings": {
+        "foreground": "#9dcfbf"
+      }
+    },
+    {
+      "name": "Primitive type",
+      "scope": "support.type.primitive",
+      "settings": {
+        "foreground": "#a49595"
+      }
+    },
+    {
       "name": "Tag",
       "scope": "entity.name.tag",
       "settings": {
@@ -156,13 +180,6 @@
       "scope": "punctuation.section.embedded",
       "settings": {
         "foreground": "#af9896"
-      }
-    },
-    {
-      "name": "Inherited class",
-      "scope": "entity.other.inherited-class",
-      "settings": {
-        "foreground": "#69a88b"
       }
     },
     {
@@ -194,37 +211,28 @@
     },
     {
       "name": "Import variable",
-      "scope": [
-        "meta.import variable.other.readwrite"
-      ],
+      "scope": ["meta.import variable.other.readwrite"],
       "settings": {
         "foreground": "#b1bdc2"
       }
     },
     {
       "name": "Import alias",
-      "scope": [
-        "meta.import variable.other.readwrite.alias"
-      ],
+      "scope": ["meta.import variable.other.readwrite.alias"],
       "settings": {
         "foreground": "#D6D6D6"
       }
     },
     {
       "name": "Object keys (JS/CSS)",
-      "scope": [
-        "meta.object-literal.key",
-        "support.type.property-name"
-      ],
+      "scope": ["meta.object-literal.key", "support.type.property-name"],
       "settings": {
         "foreground": "#b8cbc2"
       }
     },
     {
       "name": "Object keys (JSON)",
-      "scope": [
-        "support.type.property-name.json"
-      ],
+      "scope": ["support.type.property-name.json"],
       "settings": {
         "foreground": "#D6D6D6"
       }
@@ -273,28 +281,26 @@
     },
     {
       "name": "Types",
-      "scope": [
-        "meta.type",
-        "meta.return.type",
-        "keyword.operator.type"
-      ],
+      "scope": ["meta.type", "meta.return.type", "keyword.operator.type"],
       "settings": {
         "foreground": "#959fa4"
       }
     },
     {
       "name": "CSS variables",
-      "scope": [
-        "variable.css",
-        "variable.argument.css"
-      ],
+      "scope": ["variable.css", "variable.argument.css"],
       "settings": {
         "foreground": "#69a88b"
       }
-    }  ],
+    }
+  ],
   "colors": {
     "statusBar.background": "#363a3c",
     "statusBar.foreground": "#D6D6D6",
+    "statusBar.noFolderBackground": "#363a3c",
+    "statusBar.noFolderForeground": "#D6D6D6",
+    "statusBar.debuggingBackground": "#363a3c",
+    "statusBar.debuggingForeground": "#e4bc72",
     "activityBar.background": "#363a3c",
     "activityBar.foreground": "#D6D6D6",
     "sideBar.background": "#363a3c",
@@ -347,6 +353,13 @@
     "terminal.ansiBrightCyan": "#6EB4C0",
     "terminal.ansiBrightWhite": "#EEEEEC",
     "terminalCursor.foreground": "#5F5F5F",
+    "diffEditor.insertedTextBackground": "#0c7e631f",
+    "diffEditor.removedTextBackground": "#942d0e1f",
+    "editorGutter.addedBackground": "#0c7e63de",
+    "editorGutter.deletedBackground": "#af320bde",
+    "editorGutter.modifiedBackground": "#607079de",
+    "tab.inactiveBackground": "#2e3234",
+    "editorGroupHeader.tabsBackground": "#232628"
   },
   "name": "Karl O'Keeffe's Theme"
 }
