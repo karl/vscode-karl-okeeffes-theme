@@ -120,24 +120,10 @@
       }
     },
     {
-      "name": "Class name",
-      "scope": ["entity.name.type.class", "entity.name.type.module"],
-      "settings": {
-        "foreground": "#69a88b"
-      }
-    },
-    {
-      "name": "Inherited class",
-      "scope": "entity.other.inherited-class",
-      "settings": {
-        "foreground": "#69a88b"
-      }
-    },
-    {
       "name": "Type",
-      "scope": "entity.name.type",
+      "scope": ["entity.name.type", "entity.other.inherited-class"],
       "settings": {
-        "foreground": "#919ab6"
+        "foreground": "#91b2b6"
       }
     },
     {

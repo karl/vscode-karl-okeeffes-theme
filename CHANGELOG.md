@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.25.0
+
+- Change the colour of classes and custom types to avoid clashing with `this`.
+- Update screenshot.
+
 ## 2.24.1
 
 - Tweak colours for modules.
