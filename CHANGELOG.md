@@ -1,5 +1,13 @@
 # Change Log
 
+## 2.27.0
+
+- `const` variables in JavaScript now show up in the green colour for a definition, rather than the orange colour of a constant. This matches other definitions that do not change such as classes and methods.
+
+## 2.26.0
+
+- Add colours for 'Rainbow CSV' extension.
+
 ## 2.25.1
 
 - Make class definitions stand out more.
