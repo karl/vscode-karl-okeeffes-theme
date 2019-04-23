@@ -2,9 +2,22 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "italic",
+        "foreground": "#888A85"
+      }
+    },
+    {
+      "name": "Unused code",
+      "scope": [
+        "comment.unused",
+      ],
+      "settings": {
+        "fontStyle": "",
         "foreground": "#888A85"
       }
     },
@@ -41,17 +54,64 @@
       }
     },
     {
-      "name": "Definition",
-      "scope": ["meta.definition"],
+      "name": "Variable",
+      "scope": [
+        "variable",
+      ],
       "settings": {
-        "foreground": "#69a88b"
+        "foreground": "#d5c2b1"
       }
     },
     {
-      "name": "Parameter",
-      "scope": ["variable.parameter"],
+      "name": "Variable definition / Parameter",
+      "scope": [
+        "meta.definition variable",
+        "variable.parameter"
+      ],
       "settings": {
-        "foreground": "#d5c2b1"
+        "foreground": "#efbc81"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property",
+      ],
+      "settings": {
+        "foreground": "#e5e5e5"
+      }
+    },
+    {
+      "name": "Language variable",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#959fa4"
+      }
+    },
+    {
+      "name": "This",
+      "scope": "variable.language.this",
+      "settings": {
+        "foreground": "#b0aada"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#729FCF"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "meta.definition entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#4ca1e7"
       }
     },
     {
@@ -77,14 +137,7 @@
         "keyword.control.exception"
       ],
       "settings": {
-        "foreground": "#e6dcaa"
-      }
-    },
-    {
-      "name": "This",
-      "scope": "variable.language.this",
-      "settings": {
-        "foreground": "#b0aada"
+        "foreground": "#f3e69e"
       }
     },
     {
@@ -121,7 +174,10 @@
     },
     {
       "name": "Type",
-      "scope": ["entity.name.type", "entity.other.inherited-class"],
+      "scope": [
+        "entity.name.type",
+        "entity.other.inherited-class"
+      ],
       "settings": {
         "foreground": "#91b2b6"
       }
@@ -130,14 +186,21 @@
       "name": "Class",
       "scope": ["entity.name.type.class"],
       "settings": {
-        "foreground": "#69a88b"
+        "foreground": "#feab7b"
+      }
+    },
+    {
+      "name": "Support",
+      "scope": "support",
+      "settings": {
+        "foreground": "#d57b83"
       }
     },
     {
       "name": "Builtin type",
       "scope": "support.type.builtin",
       "settings": {
-        "foreground": "#9dcfbf"
+        "foreground": "#a7ddcc"
       }
     },
     {
@@ -151,21 +214,21 @@
       "name": "Tag",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#eeb60f"
+        "foreground": "#d49726"
       }
     },
     {
       "name": "Custom Tag",
       "scope": "support.class.component",
       "settings": {
-        "foreground": "#feab7b"
+        "foreground": "#eeb60f"
       }
     },
     {
       "name": "Attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#e8c790"
+        "foreground": "#9cb3c7"
       }
     },
     {
@@ -173,13 +236,6 @@
       "scope": "punctuation.section.embedded",
       "settings": {
         "foreground": "#af9896"
-      }
-    },
-    {
-      "name": "Function call",
-      "scope": ["meta.function-call", "entity.name.function.tagged-template"],
-      "settings": {
-        "foreground": "#729FCF"
       }
     },
     {
@@ -196,7 +252,8 @@
         "meta.tag.structure.any",
         "meta.tag.any",
         "meta.tag.sgml.doctype",
-        "constant.language.import-export-all"
+        "constant.language.import-export-all",
+        "support.type.object.module"
       ],
       "settings": {
         "foreground": "#959fa4"
@@ -213,12 +270,17 @@
       "name": "Import alias",
       "scope": ["meta.import variable.other.readwrite.alias"],
       "settings": {
-        "foreground": "#D6D6D6"
+        "foreground": "#efbc81"
       }
     },
     {
-      "name": "Object keys (JS/CSS)",
-      "scope": ["meta.object-literal.key", "support.type.property-name"],
+      "name": "Deinfitions / Object keys (JS/CSS)",
+      "scope": [
+        "meta.object-literal.key",
+        "support.type.property-name",
+        "meta.definition",
+        "variable.object.property"
+      ],
       "settings": {
         "foreground": "#b8cbc2"
       }

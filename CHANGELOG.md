@@ -1,5 +1,10 @@
 # Change Log
 
+## 3.0.0
+
+- Major change in syntax colours!
+  Try to be more consistent with colouring variables and functions.
+
 ## 2.27.0
 
 - `const` variables in JavaScript now show up in the green colour for a definition, rather than the orange colour of a constant. This matches other definitions that do not change such as classes and methods.

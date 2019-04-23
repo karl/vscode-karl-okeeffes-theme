@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Tabula from '../components/Tabula';
-import { demoModules } from '../constants';
+import { modules as demoModules } from '../constants';
 import UserRole from 'constants/user-role';
 import TutorialState from 'constants/tutorial-state';
 import { Tutorial, TutorialUser, MatrAuth0User } from 'constants/types';

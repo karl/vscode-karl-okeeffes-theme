@@ -267,6 +267,6 @@ export function getSimplePathsAsArray(machine: Machine): IPathsItem[] {
   const result = getSimplePaths(machine);
   return Object.keys(result).map(key => ({
     state: JSON.parse(key),
-    paths: result[key]
+    paths: result[key],
   }));
 }
