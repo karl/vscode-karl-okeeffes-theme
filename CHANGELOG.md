@@ -1,5 +1,21 @@
 # Change Log
 
+## 3.4.0
+
+- Tweak Cucumber syntax highlighting.
+
+## 3.3.0
+
+- Tweak HTML/JSX tag colours.
+
+## 3.2.0
+
+- Tweak Ruby and CSS support.
+
+## 3.1.0
+
+- Highlight labels (I think this will be useful for Svelte code).
+
 ## 3.0.0
 
 - Major change in syntax colours!
