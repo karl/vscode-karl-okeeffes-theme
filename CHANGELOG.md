@@ -1,5 +1,10 @@
 # Change Log
 
+## 3.5.0
+
+- Tweak terminal colours slightly.
+- Change warning and error squiggle colours.
+
 ## 3.4.0
 
 - Tweak Cucumber syntax highlighting.
