@@ -494,6 +494,7 @@
     "input.background": "#2f3335",
     "focusBorder": "#cdb700",
     "inputOption.activeBorder": "#69a88b",
+    "inputOption.activeBackground": "#69a88b55",
     "terminal.ansiBlack": "#1B1D1E",
     "terminal.ansiRed": "#E06C75",
     "terminal.ansiGreen": "#94C470",
