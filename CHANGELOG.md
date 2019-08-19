@@ -1,5 +1,10 @@
 # Change Log
 
+## 3.6.0
+
+- Input options now have an active background colour. This looks better when tabbing through active options.
+- Indent guides no longer stand out when text is selected.
+
 ## 3.5.0
 
 - Tweak terminal colours slightly.
