@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.7.0
+
+- Remove blue tinge from background colours.
+
 ## 3.6.0
 
 - Input options now have an active background colour. This looks better when tabbing through active options.
