@@ -11,6 +11,7 @@ import { RouteComponentProps } from 'react-router';
 
 const logger = staticLogger.createPrefixedLogger('Home Screen');
 
+// All possible states
 enum UIState {
   'LOADING' = 'LOADING',
   'READY' = 'READY',
@@ -25,6 +26,8 @@ interface State {
 
 const useTutorial = (tutorialId: string): State => {
   const [state, setState] = useState<State>({ uiState: UIState.LOADING });
+
+  console.log('What is this!');
 
   useEffect(() => {
     const loadTutorial = async () => {

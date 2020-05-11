@@ -1,5 +1,9 @@
 # Change Log
 
+## 4.0.0
+
+- Make everything darker to better fit with macOS dark mode.
+
 ## 3.7.0
 
 - Remove blue tinge from background colours.
