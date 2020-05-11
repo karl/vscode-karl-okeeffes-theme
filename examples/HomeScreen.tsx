@@ -13,10 +13,10 @@ const logger = staticLogger.createPrefixedLogger('Home Screen');
 
 // All possible states
 enum UIState {
-  'LOADING' = 'LOADING',
-  'READY' = 'READY',
-  'NOT_FOUND' = 'NOT_FOUND',
-  'ERROR' = 'ERROR',
+  LOADING = 'LOADING',
+  READY = 'READY',
+  NOT_FOUND = 'NOT_FOUND',
+  ERROR = 'ERROR',
 }
 
 interface State {

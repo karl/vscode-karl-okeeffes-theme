@@ -1,18 +1,20 @@
 /* eslint-disable no-console */
-import * as React from 'react';
-import { storiesOf } from '@storybook/react';
-import { Snapshot } from 'utils/Snapshot';
-import StatelessTutorSlides from './StatelessTutorSlides';
-import { Worksheet } from 'constants/types';
+import * as React from "react";
+import { storiesOf } from "@storybook/react";
+import { Snapshot } from "utils/Snapshot";
+import StatelessTutorSlides from "./StatelessTutorSlides";
+import { Worksheet } from "constants/types";
 
 const onSelectWorksheet = (worksheet: Worksheet) =>
-  console.log('onSelectWorkseet', worksheet);
-const onAddWorksheet = () => console.log('onAddWorksheet');
+  console.log("onSelectWorkseet", worksheet);
+const onAddWorksheet = () => console.log("onAddWorksheet");
+
+const [ foo ] = bar;
 
 const Layout = ({ children }) => {
   return (
     <div
-      style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
+      style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
     >
       {children}
     </div>
@@ -29,11 +31,11 @@ const initialWorksheets: Worksheet[] = [
   { pageId: 2 },
 ];
 
-const lotsOfWorksheets: Worksheet[] = Array.from(new Array(28)).map(
-  (_, index) => ({ pageId: index }),
-);
+const lotsOfWorksheets: Worksheet[] = Array.from(
+  new Array(28)
+).map((_, index) => ({ pageId: index }));
 
-storiesOf('Tabula', module).add('TutorSlides', () => (
+storiesOf("Tabula", module).add("TutorSlides", () => (
   <div style={{ padding: 20 }}>
     <h1>TutorSlides</h1>
 

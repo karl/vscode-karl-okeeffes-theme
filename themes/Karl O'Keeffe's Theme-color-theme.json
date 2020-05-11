@@ -128,10 +128,20 @@
         "keyword.control.flow",
         "keyword.control.loop",
         "keyword.control.trycatch",
-        "keyword.control.exception"
+        "keyword.control.exception",
       ],
       "settings": {
         "foreground": "#cabf82"
+      }
+    },
+    {
+      "name": "Generator and async",
+      "scope": [
+        "keyword.generator.asterisk",
+        "storage.modifier.async"
+      ],
+      "settings": {
+        "foreground": "#a89d6c"
       }
     },
     {
@@ -241,6 +251,13 @@
       "scope": "punctuation.section.embedded",
       "settings": {
         "foreground": "#8d7371"
+      }
+    },
+    {
+      "name": "Binding pattern",
+      "scope": "punctuation.definition.binding-pattern",
+      "settings": {
+        "foreground": "#6e7b8f"
       }
     },
     {
@@ -452,6 +469,22 @@
       }
     }
   ],
+  "semanticTokenColors": {
+    "variable": "#d3b293",
+    "variable.declaration": "#dba665",
+    "variable.declaration.readonly": "#c6975c",
+    "variable.readonly": "#b2987f",
+    "parameter": "#a4b38d",
+    "property": "#a5b3b0",
+    "enum": "#8f7499",
+    "enumMember": "#996da7",
+    "function": "#577aa0",
+    "function.declaration": "#397cb3",
+    "member.declaration": "#397cb3",
+    "function.defaultLibrary": "#a7434d",
+    "variable.defaultLibrary": "#b84f5a",
+    "*.defaultLibrary": "#b85f68"
+  },
   "colors": {
     "foreground": "#bdbdbd",
     "statusBar.background": "#2a2a2a",
@@ -521,7 +554,8 @@
     "tab.inactiveBackground": "#2a2a2a",
     "editorGroupHeader.tabsBackground": "#2a2a2a",
     "editorWarning.foreground": "#ecca31",
-    "editorError.foreground": "#e76857",
+    "editorError.foreground": "#e76857"
   },
-  "name": "Karl O'Keeffe's Theme"
+  "name": "Karl O'Keeffe's Theme",
+  "semanticHighlighting": true
 }

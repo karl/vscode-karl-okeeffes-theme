@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.0.0
+
+- First version using Semantic Highlighting.
+
 ## 4.0.0
 
 - Make everything darker to better fit with macOS dark mode.
