@@ -481,9 +481,14 @@
     "function": "#577aa0",
     "function.declaration": "#397cb3",
     "member.declaration": "#397cb3",
+    "*.defaultLibrary": "#b85f68",
+    "interface.defaultLibrary": "#a58387",
     "function.defaultLibrary": "#a7434d",
     "variable.defaultLibrary": "#b84f5a",
-    "*.defaultLibrary": "#b85f68"
+    "type": "#718c8f",
+    "type.declaration": "#729296",
+    "interface": "#717d8f",
+    "interface.declaration": "#718199",
   },
   "colors": {
     "foreground": "#bdbdbd",

@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.0.1
+
+- Tweak type colours.
+
 ## 5.0.0
 
 - First version using Semantic Highlighting.
