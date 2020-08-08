@@ -506,7 +506,7 @@
     "editor.background": "#222222",
     "editor.foreground": "#bdbdbd",
     "editorCursor.foreground": "#afafaf",
-    "editorLineNumber.foreground": "#303030",
+    "editorLineNumber.foreground": "#a4a4a4",
     "editorLineNumber.activeForeground": "#484848",
     "editorWhitespace.foreground": "#999999",
     "editor.lineHighlightBackground": "#0000002f",
