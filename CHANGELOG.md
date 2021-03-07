@@ -1,5 +1,22 @@
 # Change Log
 
+## 5.0.5
+
+- More subtle sash border colour.
+
+## 5.0.4
+
+- Add a variant of the theme with lighter line numbers.
+- Slightly improved Scala support.
+
+## 5.0.3
+
+- Very basic Scala support.
+
+## 5.0.2
+
+- Tweak CSS colours.
+
 ## 5.0.1
 
 - Tweak type colours.

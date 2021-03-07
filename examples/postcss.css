@@ -1,15 +1,15 @@
 :root {
-  --red: #d33;
+  --text-color: #d334fc;
 }
 
 a {
   &:hover {
-    color: color(var(--red) a(54%));
+    color: color(var(--text-color) a(54%));
   }
 }
 
 .thing {
-  color: color(var(--red) a(54%));
+  color: color(var(--text-color) a(54%));
 }
 
 div {
@@ -18,7 +18,8 @@ div {
 
 div,
 .monkeys,
-#moo {
+#moo,
+span.very-cool[id^='moo']:not(.uncool)::before {
   background: #aabbcc;
   font-family: 'Courier New', Courier, monospace;
   color: blue;

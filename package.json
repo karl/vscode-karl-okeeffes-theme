@@ -2,7 +2,7 @@
     "name": "karl-okeeffes-theme",
     "displayName": "Karl O'Keeffe's Theme",
     "description": "A custom theme by Karl for Karl (but feel free to use!)",
-    "version": "5.0.1",
+    "version": "5.0.5",
     "publisher": "monket",
     "engines": {
         "vscode": "^1.12.0"
@@ -16,6 +16,11 @@
                 "label": "Karl O'Keeffe's Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Karl O'Keeffe's Theme-color-theme.json"
+            },
+            {
+                "label": "Karl O'Keeffe's Theme (Variant)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Karl O'Keeffe's Theme-color-theme-variant.json"
             }
         ]
     },

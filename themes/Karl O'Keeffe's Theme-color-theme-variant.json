@@ -535,7 +535,7 @@
     "editor.background": "#222222",
     "editor.foreground": "#bdbdbd",
     "editorCursor.foreground": "#afafaf",
-    "editorLineNumber.foreground": "#404040",
+    "editorLineNumber.foreground": "#afafaf",
     "editorLineNumber.activeForeground": "#484848",
     "editorWhitespace.foreground": "#999999",
     "editor.lineHighlightBackground": "#0000002f",
@@ -591,6 +591,6 @@
     "editorWarning.foreground": "#ecca31",
     "editorError.foreground": "#e76857"
   },
-  "name": "Karl O'Keeffe's Theme",
+  "name": "Karl O'Keeffe's Theme (Variant)",
   "semanticHighlighting": true
 }

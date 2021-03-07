@@ -3,6 +3,25 @@ type Slime = {
   age: number;
 };
 
+const AWESOME = 'AWESOME';
+
+class Monkey {
+  eat() {
+    console.log('Bananas');
+ }
+}
+
+class Cat extends Monkey {
+  eat() {
+    console.log('Mouse');
+  }
+}
+
+const animal = new Cat();
+if (animal instanceof Cat) {
+  console.log(`We have an ${AWESOME} cat`);
+}
+
 const doSomething = (thing: Slime) => {
   let n = thing.name;
   const { name } = thing;
@@ -16,6 +35,7 @@ export const doOther = async (duration) => {
 };
 
 export const cool = async function* () {
+  console.log('A console message');
   const x = yield y();
 };
 
