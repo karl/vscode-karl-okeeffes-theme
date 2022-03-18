@@ -1,5 +1,13 @@
 # Change Log
 
+## 5.0.6
+
+- Decimal period.
+- Function parameter bracket colour.
+- Non-local variable colour.
+- Type parameter.
+- Optional accessor.
+
 ## 5.0.5
 
 - More subtle sash border colour.

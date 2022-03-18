@@ -24,6 +24,13 @@
       }
     },
     {
+      "name": "String punctuation",
+      "scope": ["punctuation.definition.string.begin", "punctuation.definition.string.end"],
+      "settings": {
+        "foreground": "#868686"
+      }
+    },
+    {
       "name": "Symbol",
       "scope": ["constant.language.symbol"],
       "settings": {
@@ -35,6 +42,13 @@
       "scope": "constant.numeric",
       "settings": {
         "foreground": "#993c26"
+      }
+    },
+    {
+      "name": "Number period",
+      "scope": "meta.delimiter.decimal.period",
+      "settings": {
+        "foreground": "#6c3122"
       }
     },
     {
@@ -109,6 +123,16 @@
       }
     },
     {
+      "name": "Function parameter brackets",
+      "scope": [
+        "punctuation.definition.parameters",
+        "storage.type.function.arrow"
+      ],
+      "settings": {
+        "foreground": "#697b90"
+      }
+    },
+    {
       "name": "Template expression",
       "scope": ["meta.template.expression"],
       "settings": {
@@ -167,6 +191,13 @@
       "scope": "keyword.operator",
       "settings": {
         "foreground": "#9a6f5e"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "punctuation.accessor.optional",
+      "settings": {
+        "foreground": "#a66a52"
       }
     },
     {
@@ -499,16 +530,22 @@
     }
   ],
   "semanticTokenColors": {
-    "variable": "#d3b293",
-    "variable.declaration": "#dba665",
-    "variable.declaration.readonly": "#c6975c",
-    "variable.readonly": "#b2987f",
+    "variable": "#e2aaac",
+    "variable.declaration": "#f1a3a7",
+    "variable.readonly": "#e2aaaccc",
+    "variable.declaration.readonly": "#f1a3a7cc",
+    "variable.local": "#d3b293",
+    "variable.declaration.local": "#dba665",
+    "variable.readonly.local": "#d3b293cc",
+    "variable.declaration.readonly.local": "#dba665cc",
     "parameter": "#a4b38d",
     "property": "#a5b3b0",
     "enum": "#8f7499",
     "enumMember": "#996da7",
     "function": "#577aa0",
     "function.declaration": "#397cb3",
+    "method": "#577aa0",
+    "method.declaration": "#397cb3",
     "member.declaration": "#397cb3",
     "*.defaultLibrary": "#b85f68",
     "interface.defaultLibrary": "#a58387",
@@ -518,6 +555,7 @@
     "type.declaration": "#729296",
     "interface": "#717d8f",
     "interface.declaration": "#718199",
+    "typeParameter": "#788c7a",
   },
   "colors": {
     "foreground": "#bdbdbd",

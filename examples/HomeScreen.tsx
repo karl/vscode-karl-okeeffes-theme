@@ -38,6 +38,7 @@ const useTutorial = (tutorialId: string): State => {
           tutorial: data,
         });
       } catch (error) {
+        console.warn('Error');
         if (
           isApiError(error) &&
           error.matrData.meta &&
