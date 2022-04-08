@@ -42,7 +42,7 @@ storiesOf("Tabula", module).add("TutorSlides", () => (
     <h2>Worksheets</h2>
     <Layout>
       <LayoutItem>
-        <h3>Initial</h3>
+        <h3>Initial {stuff}</h3>
         <Snapshot name="Initial">
           <StatelessTutorSlides
             workSheets={initialWorksheets}

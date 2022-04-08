@@ -33,7 +33,7 @@ export enum States {
   ERROR = "ERROR",
 }
 
-const colorButton = (background, foreground = "white") => {
+const colorButton = (background: string, foreground = "white") => {
   return {
     backgroundColor: background,
     color: foreground,

@@ -22,6 +22,8 @@ class Cat extends Monkey {
   }
 }
 
+const Bramwell:Cat = new Cat();
+
 const bigNumber = 123_456_789;
 const decimalNumber = 123.456;
 
@@ -39,6 +41,9 @@ if (animal instanceof Cat) {
   console.log(`We have an ${AWESOME} cat`);
 }
 
+/**
+ * @param {Slime} thing
+ */
 function doAThing(thing: Slime) {
   let n = thing.name;
   const { name } = thing;
