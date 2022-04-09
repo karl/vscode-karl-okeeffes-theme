@@ -11,8 +11,13 @@ type Monster<Type> = {
 const AWESOME = 'AWESOME';
 
 class Monkey {
+  age: number;
+
   eat() {
     console.log('Bananas');
+ }
+ run() {
+  const x = bigNumber + this.age;
  }
 }
 
@@ -29,8 +34,8 @@ const decimalNumber = 123.456;
 
 const things = ['first', 'second', 'third'].map((place) => {
   let other = 'other';
-  const result = place.toLocaleUpperCase();
   other = 'new';
+  const result = place.toLocaleUpperCase();
   return result + other;
 });
 

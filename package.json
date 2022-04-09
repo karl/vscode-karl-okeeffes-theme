@@ -1,37 +1,56 @@
 {
-    "name": "karl-okeeffes-theme",
-    "displayName": "Karl O'Keeffe's Theme",
-    "description": "A custom theme by Karl for Karl (but feel free to use!)",
-    "version": "5.0.6",
-    "publisher": "monket",
-    "engines": {
-        "vscode": "^1.12.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Karl O'Keeffe's Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Karl O'Keeffe's Theme-color-theme.json"
-            },
-            {
-                "label": "Karl O'Keeffe's Theme (Variant)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Karl O'Keeffe's Theme-color-theme-variant.json"
-            }
-        ]
-    },
-    "icon": "resources/icon.png",
-    "galleryBanner": {
-        "color": "#3E4345",
-        "theme": "dark"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/karl/vscode-karl-okeeffes-theme.git"
-    },
-    "url": "https://github.com/karl/vscode-karl-okeeffes-theme"
+  "name": "karl-okeeffes-theme",
+  "displayName": "Karl O'Keeffe's Theme",
+  "description": "A custom theme by Karl for Karl (but feel free to use!)",
+  "version": "5.0.6",
+  "publisher": "monket",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Karl O'Keeffe's Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Karl O'Keeffe's Theme-color-theme.json"
+      },
+      {
+        "label": "Tecoma Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tecoma.json"
+      },
+      {
+        "label": "Karl O'Keeffe's Theme (Variant)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Karl O'Keeffe's Theme-color-theme-variant.json"
+      }
+    ]
+  },
+  "icon": "resources/icon.png",
+  "galleryBanner": {
+    "color": "#3E4345",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karl/vscode-karl-okeeffes-theme.git"
+  },
+  "url": "https://github.com/karl/vscode-karl-okeeffes-theme",
+  "dependencies": {
+    "colorjs.io": "^0.0.5",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "scripts": {
+    "build": "ts-node ./src/index.ts",
+    "watch": "nodemon ./src/index.ts",
+    "package": "vsce package"
+  }
 }
