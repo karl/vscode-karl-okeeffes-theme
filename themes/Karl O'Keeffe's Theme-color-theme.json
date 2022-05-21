@@ -527,6 +527,12 @@
       "settings": {
         "foreground": "#c6975c"
       }
+    },
+    {
+      "scope": "meta.embedded.inline.snap",
+      "settings": {
+        "fontStyle": "italic"
+      }
     }
   ],
   "semanticTokenColors": {
