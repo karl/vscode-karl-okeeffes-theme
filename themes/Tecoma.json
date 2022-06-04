@@ -35,7 +35,7 @@
         "punctuation.definition.string.end"
       ],
       "settings": {
-        "foreground": "#868686"
+        "foreground": "#919191"
       }
     },
     {
@@ -85,7 +85,7 @@
         "variable"
       ],
       "settings": {
-        "foreground": "#b2987f"
+        "foreground": "#d1b397"
       }
     },
     {
@@ -95,7 +95,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#c6975c"
+        "foreground": "#b8bc83"
       }
     },
     {
@@ -112,7 +112,7 @@
       "name": "Language variable",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#797979"
+        "foreground": "#777"
       }
     },
     {
@@ -122,7 +122,7 @@
         "variable.language.self"
       ],
       "settings": {
-        "foreground": "#b2a6cb"
+        "foreground": "#c0b3d9"
       }
     },
     {
@@ -146,10 +146,21 @@
       }
     },
     {
+      "name": "Object literal brackets",
+      "scope": [
+        "meta.objectliteral punctuation.definition.block"
+      ],
+      "settings": {
+        "foreground": "#fff"
+      }
+    },
+    {
       "name": "Function parameter brackets",
       "scope": [
         "punctuation.definition.parameters",
-        "storage.type.function.arrow"
+        "storage.type.function.arrow",
+        "meta.arrow punctuation.definition.block",
+        "meta.function punctuation.definition.block"
       ],
       "settings": {
         "foreground": "#697b90"
@@ -168,7 +179,7 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#797979"
+        "foreground": "#777"
       }
     },
     {
@@ -231,14 +242,14 @@
       "name": "Keyword",
       "scope": "keyword.operator.assignment",
       "settings": {
-        "foreground": "#797979"
+        "foreground": "#777"
       }
     },
     {
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#797979"
+        "foreground": "#777"
       }
     },
     {
@@ -357,7 +368,7 @@
         "support.type.object.module"
       ],
       "settings": {
-        "foreground": "#797979"
+        "foreground": "#777"
       }
     },
     {
@@ -482,7 +493,7 @@
         "keyword.operator.type"
       ],
       "settings": {
-        "foreground": "#797979"
+        "foreground": "#777"
       }
     },
     {
@@ -609,16 +620,16 @@
     }
   ],
   "semanticTokenColors": {
-    "variable": "#cf9f9c",
-    "variable.declaration": "#df9895",
-    "variable.readonly": "#b38488",
-    "variable.declaration.readonly": "#c37d84",
-    "variable.local": "#c3a58a",
-    "variable.declaration.local": "#cda27a",
-    "variable.readonly.local": "#ab8974",
-    "variable.declaration.readonly.local": "#b78566",
-    "parameter": "#abad88",
-    "parameter.declarion": "#abaf76",
+    "variable": "#ddaca9",
+    "variable.declaration": "#eda6a2",
+    "variable.readonly": "#c19195",
+    "variable.declaration.readonly": "#d18a90",
+    "variable.local": "#d1b397",
+    "variable.declaration.local": "#dbb087",
+    "variable.readonly.local": "#b99681",
+    "variable.declaration.readonly.local": "#c59272",
+    "parameter": "#b9bb95",
+    "parameter.declarion": "#b8bc83",
     "property": "#a5b3b0",
     "enum": "#8f7499",
     "enumMember": "#996da7",
@@ -639,18 +650,18 @@
   },
   "colors": {
     "foreground": "#bdbdbd",
-    "statusBar.background": "#2c2c2c",
+    "statusBar.background": "#2a2a2a",
     "statusBar.foreground": "#bdbdbd",
-    "statusBar.noFolderBackground": "#2c2c2c",
+    "statusBar.noFolderBackground": "#2a2a2a",
     "statusBar.noFolderForeground": "#bdbdbd",
-    "statusBar.debuggingBackground": "#2c2c2c",
+    "statusBar.debuggingBackground": "#2a2a2a",
     "statusBar.debuggingForeground": "#b8975b",
-    "activityBar.background": "#2c2c2c",
+    "activityBar.background": "#2a2a2a",
     "activityBar.foreground": "#bdbdbd",
-    "sideBar.background": "#2c2c2c",
+    "sideBar.background": "#2a2a2a",
     "sideBar.foreground": "#bdbdbd",
-    "sideBarSectionHeader.background": "#2c2c2c",
-    "editor.background": "#222",
+    "sideBarSectionHeader.background": "#2a2a2a",
+    "editor.background": "#1f1f1f",
     "editor.foreground": "#bdbdbd",
     "editorCursor.foreground": "#afafaf",
     "editorLineNumber.foreground": "#404040",

@@ -1,11 +1,11 @@
 import Color from 'colorjs.io'
 
 export const tecomaColors = () => {
-  const editorBackground = new Color('lch(13%, 0, 140)');
+  const editorBackground = new Color('lch(12% 0 0)');
   const background = editorBackground.clone();
   background.lightness += 5;
 
-  const variableLocal = new Color('lch(70% 20 66)');
+  const variableLocal = new Color('lch(75% 20 66)');
   const variableLocalDeclaration = variableLocal.clone();
   variableLocalDeclaration.chroma += 10;
   
@@ -31,14 +31,17 @@ export const tecomaColors = () => {
   const variableParameterDeclaration = variableParameter.clone();
   variableParameterDeclaration.chroma += 10;
 
-
   const variableThis = variableLocal.clone();
   variableThis.hue = 300;
+
+  const minorSyntax = new Color('lch(50% 0 0)');
+  const punctuation = minorSyntax.clone();
+  punctuation.lightness += 10;
 
   return {
     comment: '#686868',
     string: '#c2ad00',
-    punctuation: '#868686',
+    punctuation: punctuation.hex,
     symbol: '#8fa738',
     number: '#993c26',
     numberPeriod: '#6c3122',
@@ -46,10 +49,10 @@ export const tecomaColors = () => {
     templateExpression: '#afafaf',
 
     userDefinedConstant: '#b34d1b',
-    variable: '#b2987f',
-    variableDefinitionParameter: '#c6975c',
+    variable: variableLocal.hex,
+    variableDefinitionParameter: variableParameterDeclaration.hex,
     variableProperty: '#bbbbbb',
-    variableLanguage: '#797979',
+    variableLanguage: minorSyntax.hex,
     variableThis: variableThis.hex,
     variableGlobal: variableGlobal.hex,
     variableGlobalDeclaration: variableGlobalDeclaration.hex,
@@ -65,16 +68,16 @@ export const tecomaColors = () => {
     funcDeclaration: '#397cb3',
     funcParameterBrackets: '#697b90',
 
-    keyword: '#797979',
+    keyword: minorSyntax.hex,
     keywordControlFlow: '#cabf82',
     keywordGeneratorAndAsync: '#a89d6c',
     keywordOperator: '#9a6f5e',
     keywordOptional: '#a66a52',
-    keywordAssignment: '#797979',
+    keywordAssignment: minorSyntax.hex,
 
     label: '#cabf82',
     debuggerAndConsole: '#f07ad9',
-    storage: '#797979',
+    storage: minorSyntax.hex,
 
     type: '#718c8f',
     typeDeclaration: '#729296',
@@ -83,7 +86,7 @@ export const tecomaColors = () => {
     typeParameter: '#788c7a',
     typeBuiltin: '#88b5a7',
     typePrimitive: '#847070',
-    types: '#797979',
+    types: minorSyntax.hex,
 
     anEnum: '#8f7499',
     anEnumMember: '#996da7',
@@ -103,7 +106,7 @@ export const tecomaColors = () => {
     attribute: '#7a8d9e',
     attributeValueBraces: '#8d7371',
     bindingPattern: '#6e7b8f',
-    minorSyntax: '#797979',
+    minorSyntax: minorSyntax.hex,
 
     importVariable: '#8d979b',
     importAlias: '#c6975c',

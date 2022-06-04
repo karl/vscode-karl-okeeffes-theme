@@ -1,5 +1,9 @@
 # Change Log
 
+## 5.1.0
+
+- Show formatted inline snapshots in italic.
+
 ## 5.0.6
 
 - Decimal period.

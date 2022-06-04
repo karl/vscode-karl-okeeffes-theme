@@ -27,6 +27,9 @@ class Cat extends Monkey {
   }
 }
 
+const regex = /\d+moo/;
+regex.compile('\d+far');
+
 const Bramwell:Cat = new Cat();
 
 const bigNumber = 123_456_789;
@@ -98,3 +101,27 @@ export const IndexOutro = (props: IndexOutroProps) => {
     </div>
   );
 };
+
+describe('xxx', () => {
+  it('yyy', () => {
+    expect(z).toMatchInlineSnapshot(`
+      {
+        "name": "Jeff",
+        "abilities": [
+          "flight",
+          "swimming"
+        ]
+      }
+    `);
+
+    expect(a).toMatchInlineSnapshot(`
+      <div id="example id">
+        <div className="example class">
+          <div data-test-id="example-child">
+            Example text!
+          </div>
+        </div>
+      </div>
+    `);
+  });
+});

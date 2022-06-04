@@ -3,7 +3,7 @@ import { promises as fs } from 'fs'
 import { originalColors } from './originalColors'
 import { tecomaColors } from './tecoma'
 
-(global as any).self = global;
+;(global as any).self = global
 
 const createTheme = (colors) => {
   return {
@@ -134,10 +134,19 @@ const createTheme = (colors) => {
         },
       },
       {
+        name: 'Object literal brackets',
+        scope: ['meta.objectliteral punctuation.definition.block'],
+        settings: {
+          foreground: '#fff',
+        },
+      },
+      {
         name: 'Function parameter brackets',
         scope: [
           'punctuation.definition.parameters',
           'storage.type.function.arrow',
+          'meta.arrow punctuation.definition.block',
+          'meta.function punctuation.definition.block',
         ],
         settings: {
           foreground: colors.funcParameterBrackets,
@@ -545,7 +554,8 @@ const createTheme = (colors) => {
       'variable.local': colors.variableLocal,
       'variable.declaration.local': colors.variableLocalDeclaration,
       'variable.readonly.local': colors.variableLocalReadonly,
-      'variable.declaration.readonly.local': colors.variableLocalReadonlyDeclaration,
+      'variable.declaration.readonly.local':
+        colors.variableLocalReadonlyDeclaration,
       parameter: colors.parameter,
       'parameter.declarion': colors.parameterDeclaration,
       property: colors.property,
@@ -648,6 +658,9 @@ export function writeFile(path, data) {
 }
 
 async function main() {
-  writeFile(join(__dirname, '..', 'themes', 'Tecoma.json'), createTheme(tecomaColors()))
+  writeFile(
+    join(__dirname, '..', 'themes', 'Tecoma.json'),
+    createTheme(tecomaColors())
+  )
 }
 main()
